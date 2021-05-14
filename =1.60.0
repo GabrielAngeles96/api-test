@@ -1,0 +1,27 @@
+
+> snappy@6.3.5 install C:\Users\Gabriel\Documents\Reto\api_test\candidate-service\node_modules\serverless\node_modules\snappy
+> prebuild-install || node-gyp rebuild
+
+
+C:\Users\Gabriel\Documents\Reto\api_test\candidate-service\node_modules\serverless\node_modules\snappy>if not defined npm_config_node_gyp (node "C:\Users\Gabriel\AppData\Roaming\nvm\v12.12.0\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\Gabriel\AppData\Roaming\nvm\v12.12.0\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+
+> protobufjs@6.11.2 postinstall C:\Users\Gabriel\Documents\Reto\api_test\candidate-service\node_modules\serverless\node_modules\protobufjs
+> node scripts/postinstall
+
+
+> serverless@2.41.1 postinstall C:\Users\Gabriel\Documents\Reto\api_test\candidate-service\node_modules\serverless
+> node ./scripts/postinstall.js
+
+
+   ┌───────────────────────────────────────────────────┐
+   │                                                   │
+   │   Serverless Framework successfully installed!    │
+   │                                                   │
+   │   To start your first project run 'serverless'.   │
+   │                                                   │
+   └───────────────────────────────────────────────────┘
+
++ serverless@2.41.1
+added 39 packages from 24 contributors, removed 34 packages, updated 3 packages, moved 425 packages and audited 1023 packages in 114.178s
+found 0 vulnerabilities
+

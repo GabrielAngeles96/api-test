@@ -1,0 +1,33 @@
+service: api-test
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+plugins:
+  - serverless-offline
+
+functions:
+  manageIntegracion:
+    handler: index.handler
+    events:
+      - http:
+          path: /api/integracion/{manager}
+          method: post
+          private: true
+
+  manageInsert:
+    handler: index.handler
+    events:
+      - http:
+          path: /api/insert/{manager}
+          method: post
+          private: true
+    
+  manageQueries:
+    handler: index.handler
+    events:
+      - http:
+          path: /api/queries/{manager}
+          method: get
+          private: true
